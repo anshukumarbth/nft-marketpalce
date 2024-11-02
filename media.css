@@ -1,0 +1,46 @@
+@media screen and (max-width: 480px ){
+.navbar{
+    flex-direction: column;
+    grid-column: auto;
+    margin-left: 100px;
+}
+.navbar-left-logo>img{
+    width: 200px;
+}
+.navbar-right-text{
+    font-size: 30px;
+}
+.container-section1{
+    padding-top: 70px;
+}
+
+.wallet-support{
+    margin-top: 100px;
+}
+.wallet-support1>span{
+padding-left: 40px;
+}
+#wallet-support12{
+    margin-left: 100px;
+
+}
+.trending{
+flex-direction: column-reverse;   
+}
+.text-gradient {
+    /* Reapply styles specifically for mobile */
+    background: linear-gradient(90deg, #69EACB 40%, #EACCF8 48%, #6654F1 100%);
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+}
+
+
+
+/* Extra Small (Mobile): 320px–480px
+Small (Phablet): 481px–767px
+Medium (Tablet): 768px–1024px
+Large (Desktop): 1025px–1440px
+Extra Large (Large Desktop): 1441px+ */
